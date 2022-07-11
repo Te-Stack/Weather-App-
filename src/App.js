@@ -44,7 +44,7 @@ function App() {
             type="text"
             className="search-bar"
             placeholder="Search..."
-            onChange={e => setQuery(e.target.value)}
+            onChange={(e) => setQuery(e.target.value)}
             value={query}
             onKeyPress={search}
           />
